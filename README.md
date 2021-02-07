@@ -1,5 +1,5 @@
 # starship-pure
-Starship configuration to look like (Pure Prompt)[https://github.com/sindresorhus/pure]
+Starship configuration to look like [Pure Prompt](https://github.com/sindresorhus/pure)
 ---
 Why?
 - Starship has support for conda enviroments, Java versions, Docker containers, etc. 
