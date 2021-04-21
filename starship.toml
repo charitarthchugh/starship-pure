@@ -4,7 +4,7 @@ format = "[$duration]($style)"
 style = "yellow"
 
 [git_branch]
-format = "[$branch]($style)"
+format = "[$branch]($style) "
 style = "242"
 
 [git_status]
@@ -21,6 +21,7 @@ disabled = "false"
 [directory]
 truncate_to_repo = false
 truncation_length = 0
+read_only=" 🔒"
 style = "blue"
 
 [character]
@@ -35,11 +36,11 @@ style = "242"
 
 [package]
 format = " [$symbol$version]($style) "
-style = "208"
+style = "242"
 
 [python]
 style = "242"
-format = "[${symbol}${pyenv_prefix}(${version} )(($virtualenv))]($style)"
+format = "[${symbol}${pyenv_prefix}(${version} )(($virtualenv ))]($style)"
 
 [java]
 format = "[${symbol}(${version})]($style)"
@@ -67,4 +68,8 @@ style = "242"
 
 [docker]
 format = "[$symbol$context]($style) "
+style = "242"
+
+[nodejs]
+format = "[$symbol($version) ]($style)"
 style = "242"
